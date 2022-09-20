@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import World from "../assets/World.svg"
-
 import { Container } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
@@ -12,8 +10,7 @@ const Home: React.FC = () => {
         <title>Homepage</title>
       </Head>
 
-      <World width={400} height={400}/>
-      <h1>World </h1>
+      <h1>Portifólio com NEXT</h1>
     </Container>
   )
 }
